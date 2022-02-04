@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btnAddMovie" Content="Add Movie" HorizontalAlignment="Left" Margin="125,126,0,0" VerticalAlignment="Top" Click="btnAddMovie_Click"/>
+        <Button x:Name="btnAddMovie" Content="Add Movie" HorizontalAlignment="Left" Margin="105,126,0,0" VerticalAlignment="Top" Click="btnAddMovie_Click" Height="41" Width="111"/>
+        <Button x:Name="btnDeleteMovie" Content="Delete Movie" HorizontalAlignment="Left" Margin="105,0,0,0" VerticalAlignment="Center" Click="btnAddMovie_Click" Height="41" Width="111"/>
+        <Button x:Name="btnUpdateMovie" Content="Update Movie" HorizontalAlignment="Left" Margin="105,272,0,0" VerticalAlignment="Top" Click="btnAddMovie_Click" Height="41" Width="111"/>
+        <ListBox x:Name="Lb_Movies" Margin="320,38,49,38" Background="LightGray" BorderBrush="Black"/>
 
     </Grid>
 </Window>

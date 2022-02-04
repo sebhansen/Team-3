@@ -12,6 +12,8 @@ namespace Wpf.ViewModel
     {
         public void AddMovie(string Title, string Genre, string Length, string Instructor, string Premiere)
         {
+            List<string> Movies = new List<string>();
+            Movies.Add(Title)
             using(StreamWriter sw = new StreamWriter("FilmListe.csv", true))
             {
                 sw.WriteLine(Title + ';' + Genre + ';' + Length + ';' + Instructor + ';' + Premiere);
