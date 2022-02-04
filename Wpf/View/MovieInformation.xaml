@@ -1,0 +1,23 @@
+﻿<Window x:Class="Wpf.View.MovieInformation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf.View"
+        mc:Ignorable="d"
+        Title="MovieInformation" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lbTitle" Content="Title" HorizontalAlignment="Left" Margin="100,60,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbGenre" Content="Genre" HorizontalAlignment="Left" Margin="100,120,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbLength" Content="Length" HorizontalAlignment="Left" Margin="100,180,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbInstructor" Content="Instructor" HorizontalAlignment="Left" Margin="100,240,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbPremiere" Content="Premiere" HorizontalAlignment="Left" Margin="100,300,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbTitle" HorizontalAlignment="Left" Margin="170,63,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20"/>
+        <TextBox x:Name="tbGenre" HorizontalAlignment="Left" Margin="170,123,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20"/>
+        <TextBox x:Name="tbLength" HorizontalAlignment="Left" Margin="170, 183,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20"/>
+        <TextBox x:Name="tbInstructor" HorizontalAlignment="Left" Margin="170,243,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="20"/>
+        <DatePicker x:Name="dpPremiere" HorizontalAlignment="Left" Margin="170,303,0,0" VerticalAlignment="Top" Width="120" Height="20" />
+        <Button Content="Tilføj" HorizontalAlignment="Left" Margin="529,184,0,0" VerticalAlignment="Top" Height="28" Width="126" Click="Button_Click"/>
+
+    </Grid>
+</Window>
